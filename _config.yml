@@ -17,7 +17,7 @@ timezone: 'Europe/Kiev'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://kristova.github.io/mynewsite/
-root: /
+root: /mynewsite/
 permalink: :title/
 permalink_defaults:
 pretty_urls:
@@ -97,12 +97,12 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: book
-theme: hueman
+theme: book
 
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
  type: 'git'
- repo: https://github.com/kristova/mynewsite.git 
+ repo: https://github.com/kristova/mynewsite.git
  branch: gh-pages

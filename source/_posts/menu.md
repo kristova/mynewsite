@@ -1,11 +1,13 @@
 # Меню сайту
 
-- [About](/about)
-- [Services](/services)
-- [Contacts](/contacts)
+- [About](/mynewsite/about)
+- [Services](/mynewsite/services)
+- [Contacts](/mynewsite/contacts)
+- [Java Script](/mynewsite/js/)
 
 ## JavaScript
 
-- [About](/about)
-- [Services](/services)
-- [Contacts](/contacts)
+- [About](/mynewsite/about)
+- [Services](/mynewsite/services)
+- [Contacts](/mynewsite/contacts)
+- [Java Script](/mynewsite/js/)
