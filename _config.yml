@@ -9,7 +9,7 @@ description: My first site on Hexo
 keywords:
 author: ProgTer club
 language: en
-timezone: Europe/Kiev
+timezone: 'Europe/Kiev'
 
 
 
@@ -18,7 +18,7 @@ timezone: Europe/Kiev
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://kristova.github.io/mynewsite/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -96,11 +96,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: book
+# theme: book
+theme: hueman
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
  type: 'git'
- repo: https://github.com/kristova/mynewsite.git
+ repo: https://github.com/kristova/mynewsite.git 
  branch: gh-pages
